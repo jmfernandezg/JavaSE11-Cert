@@ -7,7 +7,7 @@ public class T11Tests {
     }
 
 
-    // main stuffs
+    // another stuff
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder(5); // Se inicialia a cadenas vacias
         String s =  "";
