@@ -1,4 +1,4 @@
-
+git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"git config --global gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
 # Curso Certificacion Profesional Java Se 11
 
 - <https://globant.udemy.com/course/curso-certificacion-profesional-desarrollador-java-se-11/>
