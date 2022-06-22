@@ -1,11 +1,13 @@
 package javase11.cert;
 
-public class Test {
+public class T11Tests {
     
     public static void change(String in) {
 
     }
 
+
+    // main stuffs
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder(5); // Se inicialia a cadenas vacias
         String s =  "";
