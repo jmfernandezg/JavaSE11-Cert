@@ -2,9 +2,9 @@
 Español
 - <https://globant.udemy.com/course/curso-certificacion-profesional-desarrollador-java-se-11/>
 
-## Seccion 01. Introduccion
+## Sección 01. Introducción
 
-### Tema 01. Introduccion
+### Tema 01. Introducción
 
 - Desarrollador Java SE 11
 - Examen `1z0-819`: Programador Java Certificado en un solo examen
@@ -18,14 +18,14 @@ Español
 
 - Java, tipois de dato y control de flujo
   - Tipos de datos, operadores y procedencia
-  - Manipulacion de textos mediante p  y `StringBuilder`
+  - Manipulación de textos mediante p  y `StringBuilder`
   - Inferencia de Tipos (Java 10+)
-  - Instruccionses de control de Flujo
+  - Instrucciones de control de Flujo
 
-- Programacion orientada a objetos
-  - Declarar e instanciar objetiso, incluyendo anidados
+- Programación orientada a objetos
+  - Declarar e instancias de objetos, incluyendo anidados
   - Ciclo de vida de objetos
-  - Campos, metodos y mienbros estaticos
+  - Campos, métodos y miembros estáticos
   - Encapsulacion e inmutabilidad
   - Herencia
   - Polimorfismo
@@ -116,8 +116,10 @@ Español
   - En una asignacion, cada variable tiene una copia del dato
 
 ```java
+
 int r = 100;  // r = 100
 int n=r     //n = 100
+
 ````
 
 - Tipo objeto:
@@ -240,6 +242,7 @@ Object ob = new Object();
 - Cuando un objeto es elegido para recolleccion, la JVM llama al mètodo `finalize()` Este momento puede ser llamado o solo **UNA** vez durante de vida del objeto. No es seguro, depende de la JVM
 
 ```java
+
 Object ib1 = new Object();  // pone objeto1 
 Object ib2 = new Object();  // pone objeto2
 
@@ -247,6 +250,7 @@ ib1 = ib2 ;   // pone objeto2 en ib1, pone objeto1 para recoleccion
 
 ib2 = null;    // pone ib2 es NULL, pero objeto2 todavia es apuntado por ib1
               // objeto2 no es marcado para recoleccion
+
 ```
 
 ### Tema 05 - Clases de Envoltorio
