@@ -2,8 +2,8 @@ package javase11.cert.p00;
 
 public class P00 {
 
-  public static void main(String[] args) {
-    p04();
+  public static void main(String... var) {
+    p03();
   }
 
   private static void p03() {
@@ -11,8 +11,15 @@ public class P00 {
     float sol = estrella > 10 ? 1 : 3;
     double júpiter = (sol + luna) - 1.0f;
     int marte = --luna <= 8 ? 2 : 3;
-    System.out.println(sol + "-" + júpiter + "-" + marte);
-  }
+    
+    var ardilla = new Object(); //3
+      ardilla = ""; //6
+      ardilla = 4; //6
+      ardilla = false; //6
+      ardilla = new Exception(); //6
+
+    System.out.println(ardilla);
+    }
 
   private static void p04() {
     var s1 = "Kotlin";
