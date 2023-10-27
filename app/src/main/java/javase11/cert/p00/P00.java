@@ -19,6 +19,7 @@ public class P00 {
       ardilla = new Exception(); //6
 
     System.out.println(ardilla);
+    
     }
 
   private static void p04() {
