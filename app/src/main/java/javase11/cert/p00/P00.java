@@ -3,7 +3,29 @@ package javase11.cert.p00;
 public class P00 {
 
   public static void main(String... var) {
-    p03();
+    p05();
+  }
+
+  private static void p05() {
+    int participantes = 4, animales = 2, artistas = -1;
+    while((participantes = participantes+1) < 10) {
+        System.err.println("participantes: " + participantes);
+
+    } 
+    System.err.println("participantes final: " + participantes);
+    do {
+        System.err.println("animales: " + animales);
+    } while (animales++ <= 1);
+    System.err.println("animales final: " + animales);
+
+    for( ; artistas<2; artistas+=2) {
+        System.err.println("artistas: " + artistas);
+    }
+    System.err.println("artistas final: " + artistas);
+
+    System.out.println(participantes);
+    System.out.println(animales);
+    System.out.println(artistas);
   }
 
   private static void p03() {
@@ -11,16 +33,15 @@ public class P00 {
     float sol = estrella > 10 ? 1 : 3;
     double júpiter = (sol + luna) - 1.0f;
     int marte = --luna <= 8 ? 2 : 3;
-    
+
     var ardilla = new Object(); //3
-      ardilla = ""; //6
-      ardilla = 4; //6
-      ardilla = false; //6
-      ardilla = new Exception(); //6
+    ardilla = ""; //6
+    ardilla = 4; //6
+    ardilla = false; //6
+    ardilla = new Exception(); //6
 
     System.out.println(ardilla);
-    
-    }
+  }
 
   private static void p04() {
     var s1 = "Kotlin";
@@ -35,21 +56,5 @@ public class P00 {
     System.out.println(s1 == s4);
     System.out.println(sb1.toString() == s1);
     System.out.println(sb1.toString().equals(s1));
-  }
-
-  private static void p05() {
-       class Numero {
-        public int valor;
-        public String llave;
-      }
-
-      class Vuelo {
-        private Numero num;
-        public Vuelo(Numero num) {
-          this.num = num;
-        }
-      }
-     
-      
   }
 }
