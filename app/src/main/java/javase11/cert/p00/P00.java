@@ -1,9 +1,21 @@
 package javase11.cert.p00;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+
 public class P00 {
 
   public static void main(String... var) {
-    p05();
+    p06();
+  }
+
+  private static void p06() {
+    Set<String> conjunto = Set.of("mickey", "minnie");
+    List<String> lista = new ArrayList<>(conjunto);
+    conjunto.forEach(s -> System.out.println(s));
+    lista.forEach(s -> System.out.println(s));
+
   }
 
   private static void p05() {
